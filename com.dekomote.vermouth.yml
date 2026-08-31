@@ -17,6 +17,7 @@ finish-args:
   - --allow=multiarch
   - --filesystem=/mnt
   - --filesystem=/run/media
+  - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/usr/lib/extensions/vulkan/gamescope/bin:/usr/lib/extensions/vulkan/OBSVkCapture/bin
 
 add-extensions:
   org.freedesktop.Platform.Compat.i386:
@@ -98,5 +99,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/dekomote/vermouth.git
-        tag: v2.0.2
-        commit: bd9d0f8d76ac1a966bb912afa027cdd4e06f645d
+        tag: v2.0.3
+        commit: a245d7efcecb3a2c9a4797379c3f8bcb038ee942
