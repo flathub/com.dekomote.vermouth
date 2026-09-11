@@ -15,6 +15,7 @@ finish-args:
   - --allow=devel
   - --allow=per-app-dev-shm
   - --allow=multiarch
+  - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=/mnt
   - --filesystem=/run/media
   - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/MangoHud/bin:/usr/lib/extensions/vulkan/gamescope/bin:/usr/lib/extensions/vulkan/OBSVkCapture/bin
@@ -99,5 +100,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/dekomote/vermouth.git
-        tag: v2.2.0
-        commit: ff4aac9bf3f57a132cc361b7f6f4424919068661
+        tag: v2.2.1
+        commit: 2f87ce29dba478e848f42299900c9600cd7f36f9
