@@ -87,8 +87,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/ip7z/7zip.git
-            tag: '26.03'
-            commit: 0766b733fe3e06dd2a7f9a3cfbf2108ac73abd17
+            tag: '26.06'
+            commit: d3296e39e1f1f92c7b41c0c3848e65640428d42d
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
@@ -96,10 +96,10 @@ modules:
       - name: cabextract
         sources:
           - type: archive
-            url: https://www.cabextract.org.uk/cabextract-1.11.tar.gz
+            url: https://www.cabextract.org.uk/cabextract-1.12.tar.gz
             mirror-urls:
               - http://deb.debian.org/debian/pool/main/c/cabextract/cabextract_1.11.orig.tar.gz
-            sha256: b5546db1155e4c718ff3d4b278573604f30dd64c3c5bfd4657cd089b823a3ac6
+            sha256: 8f39ad5f9c076b9c62c67dea4f8649e75dcc16899a2d8122ca32ba68262cb713
             x-checker-data:
               type: anitya
               project-id: 245
